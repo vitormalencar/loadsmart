@@ -1,0 +1,16 @@
+.shippment-list {
+  background-color: #f0f0f0;
+  flex: 1;
+  align-items: stretch;
+  overflow-y: auto;
+  height: 80vh;
+  margin-right: 10px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .shippment-list {
+    height: 50vh;
+    margin: 0px 0px 50px;
+  }
+}

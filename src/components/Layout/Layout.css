@@ -1,0 +1,27 @@
+body,
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 76px;
+}
+
+.App .container {
+  display: flex;
+  align-content: center;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .App .container {
+    display: block;
+    align-content: center;
+    margin-bottom: 200px;
+  }
+}

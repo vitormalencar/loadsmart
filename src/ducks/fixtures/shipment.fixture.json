@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "fare": 1240,
+  "shipperRatingScore": 4.2,
+  "weight": 52000,
+  "commodity": "Apples",
+  "equipmentSize": "53",
+  "equipmentType": "DRV",
+  "error": false,
+  "loading":false,
+  "map": "https://loadsmart-coding-test-frontend.herokuapp.com/assets/img/map.png",
+  "stops": [
+    {
+      "address": "39 Wooster Street",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipcode": "10013",
+      "windowStart": "2016-03-26T14:00:00.000Z",
+      "windowEnd": "2016-03-26T22:00:00.000Z",
+      "startTimeZone": "America/New_York",
+      "latitude": 40.722453,
+      "longitude": -74.002819,
+      "accessorials": ["pallet_jack", "airport"]
+    },
+    {
+      "address": "101 North Miami Avenue",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "zipcode": "33128",
+      "windowStart": "2016-03-29T14:00:00.000Z",
+      "windowEnd": "2016-03-29T22:00:00.000Z",
+      "startTimeZone": "America/New_York",
+      "latitude": 25.775148,
+      "longitude": -80.193629,
+      "accessorials": ["lumper", "lift_gate"]
+    }
+  ]
+}
