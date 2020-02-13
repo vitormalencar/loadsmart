@@ -52,6 +52,6 @@
     "redux-mock-store": "^1.5.3",
     "stylelint": "^13.0.0",
     "stylelint-config-recommended": "^3.0.0",
-    "stylelint-config-standard": "^19.0.0"
+    "stylelint-config-standard": "^20.0.0"
   }
 }
